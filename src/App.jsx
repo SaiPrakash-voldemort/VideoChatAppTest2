@@ -5,14 +5,9 @@ import RoomPage from "./screens/Room";
 
 function App() {
   return (
-    <div
-      className="App flex  justify-center  h-screen bg-purple-500
-    00"
-    >
+    <div className="flex justify-center h-screen bg-purple-500 App 00">
       <Routes>
         <Route path="/" element={<LobbyScreen />} />
-      </Routes>
-      <Routes>
         <Route path="/room/:roomId" element={<RoomPage />} />
       </Routes>
     </div>
